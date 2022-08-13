@@ -51,11 +51,11 @@ int main()
     std::cout << "Binary Tree\n";
 
 	/* Constructed binary tree is
-              1
-		    /   \
-          2      3
-		/  \
-      4     5
+		    1
+		  /   \
+		2       3
+	      /   \
+            4       5
 	*/
 	struct Node* root = new Node(1);
 	root->left = new Node(2);
